@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>quis time_es</name>
+    <events>
+        <event-block sid="702704214511515">
+            <conditions>
+                <condition id="17" name="On tap object" sid="185344365680036" type="Touch">
+                    <param id="0" name="Object">tombolLanjut3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="670124246159136" type="System">
+                    <param id="0" name="Layout">quis1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="275854060058446">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="175056341512545" type="Touch">
+                    <param id="0" name="Object">tombolLanjut3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="838818356465472" type="tombolLanjut3">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="701990270351599">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="425884844460204" type="Mouse">
+                    <param id="0" name="Object">tombolLanjut3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="347946705579935" type="tombolLanjut3">
+                    <param id="0" name="Width">319</param>
+                    <param id="1" name="Height">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="737935042683759">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="385453275743263" type="Mouse">
+                    <param id="0" name="Object">tombolLanjut3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="731888249335384" type="tombolLanjut3">
+                    <param id="0" name="Width">325</param>
+                    <param id="1" name="Height">115</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

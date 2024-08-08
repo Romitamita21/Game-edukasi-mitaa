@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>final_es</name>
+    <events>
+        <event-block sid="176560150630051">
+            <conditions>
+                <condition id="17" name="On tap object" sid="505060048253112" type="Touch">
+                    <param id="0" name="Object">tombolahome4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="913559606527948" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="878291173276262">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="275251099155649" type="Touch">
+                    <param id="0" name="Object">tombolahome4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="673273018741874" type="tombolahome4">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="142775436737474">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="368616380182645" type="Mouse">
+                    <param id="0" name="Object">tombolahome4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="834892173541205" type="tombolahome4">
+                    <param id="0" name="Width">80</param>
+                    <param id="1" name="Height">90</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="567047184208551">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="861743747176326" type="Mouse">
+                    <param id="0" name="Object">tombolahome4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="243302261404176" type="tombolahome4">
+                    <param id="0" name="Width">90</param>
+                    <param id="1" name="Height">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="369210490766216">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="699441744552972">
+            <conditions>
+                <condition id="17" name="On tap object" sid="637892151269038" type="Touch">
+                    <param id="0" name="Object">tombolhome2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="136059148291345" type="Browser" />
+            </actions>
+        </event-block>
+        <event-block sid="445706247408327">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="332623815192890" type="Touch">
+                    <param id="0" name="Object">tombolhome2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="329822209901623" type="tombolhome2">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="297771164419187">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="895417746961934" type="Mouse">
+                    <param id="0" name="Object">tombolhome2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="847061888549119" type="tombolhome2">
+                    <param id="0" name="Width">80</param>
+                    <param id="1" name="Height">90</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="854894145284590">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="510755528202243" type="Mouse">
+                    <param id="0" name="Object">tombolhome2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="385341701023869" type="tombolhome2">
+                    <param id="0" name="Width">90</param>
+                    <param id="1" name="Height">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="709460360174308">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="535582396281642">
+            <conditions>
+                <condition id="17" name="On tap object" sid="614915019986024" type="Touch">
+                    <param id="0" name="Object">tmbNext</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="533268323295540" type="System">
+                    <param id="0" name="Layout">grand final</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="834389220888445">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="709705834341266" type="Touch">
+                    <param id="0" name="Object">tmbNext</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="350206889779461" type="tmbNext">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="585098038761576">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="857476882227792" type="Mouse">
+                    <param id="0" name="Object">tmbNext</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="660179577676718" type="tmbNext">
+                    <param id="0" name="Width">288</param>
+                    <param id="1" name="Height">91</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="928461005394138">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="489309904657100" type="Mouse">
+                    <param id="0" name="Object">tmbNext</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="472145346077647" type="tmbNext">
+                    <param id="0" name="Width">300</param>
+                    <param id="1" name="Height">100</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

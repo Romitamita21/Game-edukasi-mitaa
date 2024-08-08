@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>menu_es</name>
+    <events>
+        <variable constant="0" name="butonMusic" sid="186076125194941" static="0" type="number">0</variable>
+        <variable constant="0" name="timeropening" sid="332189324924254" static="0" type="number">0</variable>
+        <event-block sid="171128128282453">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="428198056347325" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="619975120443277" type="System">
+                    <param id="0" name="Layer">&quot;opening&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="836448069623778" type="System">
+                    <param id="0" name="Layer">&quot;tombol&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="428641782686887" type="System">
+                    <param id="0" name="Layer">&quot;background&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="808950278876845">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="319648521350452" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="493358661028089" type="System">
+                    <param id="0" name="Variable">timeropening</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="419709183175507">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="799576015432421" type="System">
+                    <param id="0" name="Variable">timeropening</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="767387674930143" type="System">
+                    <param id="0" name="Layer">&quot;opening&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="838001741652406" type="System">
+                    <param id="0" name="Layer">&quot;tombol&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="188126093511982" type="System">
+                    <param id="0" name="Layer">&quot;background&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="729453883506473">
+            <conditions>
+                <condition id="17" name="On tap object" sid="485257053219838" type="Touch">
+                    <param id="0" name="Object">tombolstart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="459904288293572" type="System">
+                    <param id="0" name="Layout">game_LO</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="992410145472524">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="892753468399254" type="Mouse">
+                    <param id="0" name="Object">tombolstart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="891584126139545" type="tombolstart">
+                    <param id="0" name="Width">600</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="272559248109468">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="914630694550930" type="Mouse">
+                    <param id="0" name="Object">tombolstart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="846575145462811" type="tombolstart">
+                    <param id="0" name="Width">576</param>
+                    <param id="1" name="Height">181</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="250814803045137">
+            <conditions>
+                <condition id="17" name="On tap object" sid="511997286305533" type="Touch">
+                    <param id="0" name="Object">petunjuk</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="695155386394286" type="System">
+                    <param id="0" name="Layout">petunjuk</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="568400461790664">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="554912802905077" type="Mouse">
+                    <param id="0" name="Object">petunjuk</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="787094029782976" type="petunjuk">
+                    <param id="0" name="Width">600</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="371872261843452">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="883823376047576" type="Mouse">
+                    <param id="0" name="Object">petunjuk</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="233740621973885" type="petunjuk">
+                    <param id="0" name="Width">576</param>
+                    <param id="1" name="Height">181</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="958643372280919">
+            <conditions>
+                <condition id="17" name="On tap object" sid="276997506201196" type="Touch">
+                    <param id="0" name="Object">infogame</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="740276709364025" type="System">
+                    <param id="0" name="Layout">info game</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="350163127795814">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="537045511602118" type="Mouse">
+                    <param id="0" name="Object">infogame</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="283618035089205" type="infogame">
+                    <param id="0" name="Width">600</param>
+                    <param id="1" name="Height">200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="628096438265971">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="362573128434674" type="Mouse">
+                    <param id="0" name="Object">infogame</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="482911491519012" type="infogame">
+                    <param id="0" name="Width">576</param>
+                    <param id="1" name="Height">181</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="624436825780509">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="372526656617675" type="Mouse">
+                    <param id="0" name="Object">tombolahome3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="624216203378867" type="tombolahome3">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">125</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="396317806713200">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="231289620385401" type="Mouse">
+                    <param id="0" name="Object">tombolahome3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="404184719472406" type="tombolahome3">
+                    <param id="0" name="Width">105</param>
+                    <param id="1" name="Height">110</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="129308578414160">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="960795594009961" type="Mouse">
+                    <param id="0" name="Object">exit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="788947124199035" type="exit">
+                    <param id="0" name="Width">120</param>
+                    <param id="1" name="Height">125</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="544155058168683">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="413582740862073" type="Mouse">
+                    <param id="0" name="Object">exit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="588065285324163" type="exit">
+                    <param id="0" name="Width">105</param>
+                    <param id="1" name="Height">110</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="332633726942514">
+            <conditions>
+                <condition id="17" name="On tap object" sid="726833644785856" type="Touch">
+                    <param id="0" name="Object">exit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="555362821909591" type="Browser" />
+            </actions>
+        </event-block>
+        <event-group description="" sid="456581209758687" title="music" />
+        <event-block sid="970606594441791">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="550825399500535" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="463899693812602">
+                    <conditions>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="767023473460276" type="Audio">
+                            <param id="0" name="Tag">&quot;music&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="33" name="Stop all" sid="460229448508814" type="Audio" />
+                        <action id="0" name="Play" sid="176056190520990" type="Audio">
+                            <param id="0" name="Audio file">1-efek-sound-1-220034</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">-5</param>
+                            <param id="1" name="Tag (optional)">&quot;music&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="695711487835142">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="895252395664547" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="33" name="Stop all" sid="452554753138770" type="Audio" />
+                        <action id="0" name="Play" sid="508569716469401" type="Audio">
+                            <param id="0" name="Audio file">1-efek-sound-1-220034</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">-5</param>
+                            <param id="1" name="Tag (optional)">&quot;music&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="628168062264268">
+            <conditions>
+                <condition id="3" name="On touched object" sid="375673500863970" type="Touch">
+                    <param id="0" name="Object">tombolMusik</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="993874456148043" type="tombolMusik">
+                    <param id="0" name="Layer">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="750221109396259">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="366621509018458" type="System">
+                            <param id="0" name="Variable">butonMusic</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="364391234032508" type="System">
+                            <param id="0" name="Variable">butonMusic</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="2" name="Set muted" sid="770003930913858" type="Audio">
+                            <param id="0" name="Tag">&quot;music&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="182358004983379" type="tombolMusik">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="957453234213601">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="535353037650342" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="837641012032974" type="System">
+                            <param id="0" name="Variable">butonMusic</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="2" name="Set muted" sid="334221649245138" type="Audio">
+                            <param id="0" name="Tag">&quot;music&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="914119666012828" type="tombolMusik">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

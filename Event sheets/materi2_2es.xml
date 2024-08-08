@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>materi2_2es</name>
+    <events>
+        <variable constant="0" name="materi4" sid="387708745812397" static="0" type="number">0</variable>
+        <event-block sid="555066902077181">
+            <conditions>
+                <condition id="17" name="On tap object" sid="717233107366464" type="Touch">
+                    <param id="0" name="Object">tombolahome4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="214420435819881" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+                <action id="-9" name="Set value" sid="743450475810843" type="System">
+                    <param id="0" name="Variable">materi</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="154517781107900">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="665572241306579" type="Touch">
+                    <param id="0" name="Object">tombolahome4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="407102001377019" type="tombolahome4">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="523376498529197">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="614787481194798" type="Mouse">
+                    <param id="0" name="Object">tombolahome4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="315158161919216" type="tombolahome4">
+                    <param id="0" name="Width">80</param>
+                    <param id="1" name="Height">90</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="299352079714148">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="541328884601642" type="Mouse">
+                    <param id="0" name="Object">tombolahome4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="798656795146210" type="tombolahome4">
+                    <param id="0" name="Width">90</param>
+                    <param id="1" name="Height">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="668210502044158">
+            <conditions>
+                <condition id="0" name="On function" sid="146746908055130" type="Function">
+                    <param id="0" name="Name">&quot;tombolkiri&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="126184069762064">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="986158807578593" type="System">
+                            <param id="0" name="Variable">materi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="363543861334996" type="System">
+                            <param id="0" name="Variable">materi</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="197038278826960">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="255801076972344" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="517367378360368" type="System">
+                            <param id="0" name="Variable">materi</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="164161393574987">
+            <conditions />
+            <actions>
+                <action id="5" name="Set frame" sid="868699125689143" type="materi4">
+                    <param id="0" name="Frame number">materi</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="217621203414925">
+            <conditions>
+                <condition id="0" name="On function" sid="251737720007250" type="Function">
+                    <param id="0" name="Name">&quot;tombolkanan&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="332794390876447">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="347980217056985" type="System">
+                            <param id="0" name="Variable">materi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="148965789721255" type="System">
+                            <param id="0" name="Variable">materi</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="369728733806741">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="194073406125340" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="869541491325824" type="System">
+                            <param id="0" name="Variable">materi</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="741814807262990">
+                            <conditions />
+                            <actions>
+                                <action id="5" name="Set frame" sid="171106888597993" type="materi4">
+                                    <param id="0" name="Frame number">materi</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="794878493134909">
+            <conditions>
+                <condition id="3" name="On touched object" sid="147911738799912" type="Touch">
+                    <param id="0" name="Object">tmblNext2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="509109587491117" type="Function">
+                    <param id="0" name="Name">&quot;tombolkiri&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="526558368931399">
+            <conditions>
+                <condition id="3" name="On touched object" sid="575983237318498" type="Touch">
+                    <param id="0" name="Object">tmblNext</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="702711907690143" type="Function">
+                    <param id="0" name="Name">&quot;tombolkanan&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="292589318194703">
+            <conditions>
+                <condition id="17" name="On tap object" sid="185422501535261" type="Touch">
+                    <param id="0" name="Object">tombolLanjut</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="143618876240600" type="System">
+                    <param id="0" name="Layout">quis time 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="527607029286041">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="568166333818642" type="Touch">
+                    <param id="0" name="Object">tombolLanjut</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="254212840450357" type="tombolLanjut">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="621384940056660">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="276518125491678" type="Mouse">
+                    <param id="0" name="Object">tombolLanjut</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="513655783757658" type="tombolLanjut">
+                    <param id="0" name="Width">319</param>
+                    <param id="1" name="Height">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="453626464908744">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="811904209139114" type="Mouse">
+                    <param id="0" name="Object">tombolLanjut</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="909891952120636" type="tombolLanjut">
+                    <param id="0" name="Width">325</param>
+                    <param id="1" name="Height">115</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

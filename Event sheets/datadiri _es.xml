@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>datadiri _es</name>
+    <events>
+        <event-block sid="713892186082100">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="597448627086011">
+            <conditions>
+                <condition id="17" name="On tap object" sid="460716769191690" type="Touch">
+                    <param id="0" name="Object">mulai</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="460027029704491" type="System">
+                    <param id="0" name="Layout">game_LO</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="155967663979834">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="578183299815360" type="Touch">
+                    <param id="0" name="Object">mulai</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="439532949304250" type="mulai">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="843426102378931">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="593774178295335" type="Mouse">
+                    <param id="0" name="Object">mulai</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="378652046047274" type="mulai">
+                    <param id="0" name="Width">350</param>
+                    <param id="1" name="Height">140</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="298173361850850">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="884717902469316" type="Mouse">
+                    <param id="0" name="Object">mulai</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="117563352168413" type="mulai">
+                    <param id="0" name="Width">340</param>
+                    <param id="1" name="Height">137</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

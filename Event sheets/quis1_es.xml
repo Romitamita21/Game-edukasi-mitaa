@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>quis1_es</name>
+    <events>
+        <event-block sid="276765095626340">
+            <conditions>
+                <condition id="17" name="On tap object" sid="340473757895220" type="Touch">
+                    <param id="0" name="Object">salah</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="551355041334099" type="System">
+                    <param id="0" name="Layout">quis1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="841614256317756">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="801041125280789" type="Touch">
+                    <param id="0" name="Object">salah</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="761064095407295" type="salah">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="751728082423553">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="154682120619445" type="Mouse">
+                    <param id="0" name="Object">salah</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="505241350708883" type="salah">
+                    <param id="0" name="Width">350</param>
+                    <param id="1" name="Height">140</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="297211075315776">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="972675727842777" type="Mouse">
+                    <param id="0" name="Object">salah</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="829203912502111" type="salah">
+                    <param id="0" name="Width">340</param>
+                    <param id="1" name="Height">137</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="716797790262907">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="541765362339583" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="423625689051165" type="System">
+                    <param id="0" name="Layer">&quot;tampil&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="589274622849844">
+            <conditions>
+                <condition id="17" name="On tap object" sid="118528311577629" type="Touch">
+                    <param id="0" name="Object">benar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="108261447686499" type="System">
+                    <param id="0" name="Layer">&quot;tampil&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="382707057098896">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="792075157381792" type="Touch">
+                    <param id="0" name="Object">benar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="184073638932248" type="benar">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="291046243417196">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="295336375576679" type="Mouse">
+                    <param id="0" name="Object">benar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="100595161516463" type="benar">
+                    <param id="0" name="Width">350</param>
+                    <param id="1" name="Height">140</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="643599669535000">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="849510769243969" type="Mouse">
+                    <param id="0" name="Object">benar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="860011565255728" type="benar">
+                    <param id="0" name="Width">340</param>
+                    <param id="1" name="Height">137</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="115338687325578">
+            <conditions>
+                <condition id="17" name="On tap object" sid="374179485229283" type="Touch">
+                    <param id="0" name="Object">nextLevel</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="644598356422077" type="System">
+                    <param id="0" name="Layout">gamelevel 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="144098935749487">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="116166953636745" type="Touch">
+                    <param id="0" name="Object">nextLevel</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="977367306933420" type="nextLevel">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="393410522359552">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="974312797536739" type="Mouse">
+                    <param id="0" name="Object">nextLevel</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="253712740195972" type="nextLevel">
+                    <param id="0" name="Width">319</param>
+                    <param id="1" name="Height">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="590631676200587">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="739896314051577" type="Mouse">
+                    <param id="0" name="Object">nextLevel</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="995370550061034" type="nextLevel">
+                    <param id="0" name="Width">325</param>
+                    <param id="1" name="Height">115</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
